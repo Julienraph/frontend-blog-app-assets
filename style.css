@@ -393,6 +393,26 @@ footer ul a:hover {
   line-height: 1.7;
 }
 
+/*=================================== CATEGORY POSTS ================================*/
+.category__title {
+  height: 15rem;
+  margin-top: 4.5rem;
+  background: var(--color-gray-900);
+  display: grid;
+  place-items: center;
+}
+
+/*=================================== EMPTY PAGES ================================*/
+
+.empty__page {
+  height: 70vh;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+/*=================================== GENERAL FORM ================================*/
+
 /*=================================== MEDIA QUERIES (Medium Devices) ================================*/
 
 @media screen and (max-width: 1024px) {
@@ -566,7 +586,7 @@ footer ul a:hover {
     width: var(--container-width-md);
   }
 
-  /*================ BLOG ================*/
+  /*================ SINGLE POST ================*/
   .singlepost__container {
     background-color: transparent;
     padding: 0;
